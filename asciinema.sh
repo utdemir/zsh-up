@@ -30,7 +30,7 @@ function pr {
     done
 }
 
-$TMUX resize-window -x 100 -y 20
+$TMUX resize-window -x 140 -y 30
 sleep 1
 $TMUX send-keys "asciinema rec \"$tmpdir/demo.cast\"" ENTER
 sleep 2
